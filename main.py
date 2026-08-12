@@ -37,7 +37,9 @@ async def create_expense(
 async def get_expenses_by_month(
     year:int,
     month:int,
-    db:    )
+    db:ession =Depends(get_db):
+    return
+        )
 
 
   

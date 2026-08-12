@@ -41,6 +41,12 @@ async def get_expenses_by_month(
     return
         )
 
+@app.get("/totals")
+async def get_totals(
+    year:int,
+    month:int,
+    db:ession =Depends(get_db):
+    return
 
   
     
